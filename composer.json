@@ -1,0 +1,28 @@
+{
+    "name": "elyanor/skeleton-bundle",
+    "description": "Skeleton of a symfony bundle.",
+    "keywords": [
+        "symfony",
+        "skeleton",
+        "bundle"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antoine FRANCE",
+            "email": "france.antoine@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "symfony/dependency-injection": "^2.8 || ^3.0 || ^4.0 || ^4.1 || ^4.2",
+        "symfony/framework-bundle": "^2.8 || ^3.0 || ^4.0 || ^4.1 || ^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elyanor\\Bundle\\SkeletonBundle\\": "src/"
+        }
+    }
+}
